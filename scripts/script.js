@@ -1,4 +1,3 @@
-let nombre, correo, mensaje;
 
 let formulario = document.getElementById('form')
 
