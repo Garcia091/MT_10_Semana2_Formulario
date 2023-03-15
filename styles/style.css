@@ -74,6 +74,7 @@ input{
     margin: 5px;
     background-color: rgba(22, 66, 110, 0.6);
     color: white;
+    display: inline-block;
 }
 
 

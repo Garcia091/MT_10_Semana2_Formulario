@@ -16,9 +16,15 @@ function LeerDatos() {
 }
 
 function ValidarData(nombre,correo,mensaje) {
-    alert()
     if(nombre.length==0 || correo.length==0  || mensaje.length==0){
-        swal("Good job!", "You clicked the button!", "error")
+       
+        Swal.fire({
+            title: 'Error!',
+            text: 'Do you want to continue',
+            icon: 'error',
+            confirmButtonText: 'Cool',
+            iconColor:'purple'
+          })
     }
 }
 
@@ -33,5 +39,4 @@ function ListarData() {
     let nombreUsu = localStorage.getItem('Nombre')
     let correoUsu = localStorage.getItem('Correo')
     let mensajeUsu = localStorage.getItem('Correo')
-
 }
